@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Certificates and secrets
+certs/
+secrets/
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Logs and generated files
+*.log
+logs/
+test-results/
+artifacts/
+reports/
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
